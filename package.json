@@ -1,0 +1,56 @@
+{
+  "name": "@teamleader/ui-icons",
+  "description": "Teamleader UI icons",
+  "version": "0.0.1",
+  "author": "Teamleader <development@teamleader.eu> (https://www.teamleader.eu)",
+  "bugs": {
+    "url": "https://github.com/teamleadercrm/ui-icons/issues"
+  },
+  "devDependencies": {
+    "@balajmarius/svg-to-jsx": "^1.0.7",
+    "babel-eslint": "^7.2.3",
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "eslint": "^4.5.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "fs-extra": "^4.0.1",
+    "glob": "^7.1.2",
+    "lodash.zip": "^4.2.0",
+    "prettier": "^1.5.3"
+  },
+  "engines": {
+    "node": "^8.0.0",
+    "npm": "^5.0.0"
+  },
+  "homepage": "https://github.com/teamleadercrm/ui-icons#readme",
+  "keywords": [
+    "icons",
+    "teamleader",
+    "ui"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "^15.6.1"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamleadercrm/ui-icons.git"
+  },
+  "scripts": {
+    "build": "node ./bin/create && eslint dist --fix",
+    "lint": "eslint src bin",
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "npm run build"
+  }
+}
