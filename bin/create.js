@@ -7,7 +7,7 @@ const findKey = require('lodash.findkey');
 const fs = Promise.promisifyAll(require('fs-extra'));
 const {globAsync} = Promise.promisifyAll(require('glob'));
 const svgToJsx = require('@balajmarius/svg-to-jsx');
-var clc = require('cli-color');
+const clc = require('cli-color');
 const constants = require('../src/constants');
 
 const ROOT_DIR = path.join(__dirname, '..');
