@@ -50,13 +50,14 @@ const generateSVGs = Promise.coroutine(function* () {
   yield Promise.all(
     icons.map(
       Promise.coroutine(function* (fileName) {
-        // Read all the files inside the icon folder and return their names without extension
+        // Map the size (eg.: 14x14) to our constant (eg.: SMALL)
         const dimension = findKey(constants, c => c === parseInt(fileName.split('x')[0]));
         if (typeof dimension === 'undefined') {
           logs += `⚠️  Invalid size prefix for icon: ${fileName}\n`;
           return;
         }
 
+        // Remove '.svg' and the size (eg.: 14x14) from the fileName
         const fileNameWithoutExtension = fileName.substring(fileName.indexOf('_') + 1).split('.')[0];
         const variation = fileNameWithoutExtension.split('_').pop();
         const iconName = fileNameWithoutExtension.substring(0, fileNameWithoutExtension.lastIndexOf('_'));
