@@ -43,7 +43,7 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, compone
 
 const generateSVGs = Promise.coroutine(function* () {
   const iconsToProcess = yield globAsync(`${ICONS_DIR}/*`);
-  const icons = iconsToProcess.map(folder => folder.split('/').pop());
+  const icons = iconsToProcess.map(folder => path.basename(folder));
   let index = '';
   let logs = '';
 
@@ -58,9 +58,9 @@ const generateSVGs = Promise.coroutine(function* () {
         }
 
         // Remove '.svg' and the size (eg.: 14x14) from the fileName
-        const fileNameWithoutExtension = fileName.substring(fileName.indexOf('_') + 1).split('.')[0];
-        const variation = fileNameWithoutExtension.split('_').pop();
-        const iconName = fileNameWithoutExtension.substring(0, fileNameWithoutExtension.lastIndexOf('_'));
+        const fileNameWithoutDimension = path.basename(fileName.substring(fileName.indexOf('_') + 1), '.svg');
+        const variation = fileNameWithoutDimension.split('_').pop();
+        const iconName = fileNameWithoutDimension.substring(0, fileNameWithoutDimension.lastIndexOf('_'));
         const iconNameWithSize = `icon_${iconName}_${dimension}_${variation}`;
         const componentName = upperFirst(camelCase(`${iconNameWithSize}`));
 
