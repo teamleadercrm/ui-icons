@@ -1,10 +1,14 @@
 const path = require('path');
 const Promise = require('bluebird');
 const cheerio = require('cheerio');
-const zip = require('lodash.zip');
+const camelCase = require('lodash.camelcase');
+const upperFirst = require('lodash.upperfirst');
+const findKey = require('lodash.findkey');
 const fs = Promise.promisifyAll(require('fs-extra'));
-const { globAsync } = Promise.promisifyAll(require('glob'));
+const {globAsync} = Promise.promisifyAll(require('glob'));
 const svgToJsx = require('@balajmarius/svg-to-jsx');
+var clc = require('cli-color');
+const constants = require('../src/constants');
 
 const ROOT_DIR = path.join(__dirname, '..');
 const SRC_DIR = path.join(ROOT_DIR, 'src');
@@ -38,40 +42,53 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVGs, compon
   });
 });
 
-const generateSVGs = Promise.coroutine(function*() {
-  const iconFoldersToProcess = yield globAsync(`${ICONS_DIR}/*`);
-  const iconNames = iconFoldersToProcess.map(folder => folder.split('/').pop());
+const generateSVGs = Promise.coroutine(function* () {
+  const iconsToProcess = yield globAsync(`${ICONS_DIR}/*`);
+  const icons = iconsToProcess.map(folder => folder.split('/').pop());
+  let index = '';
+  let logs = '';
 
-  iconNames.map(
-    Promise.coroutine(function*(name) {
-      // Read all the files inside the icon folder and return their names without extension
-      const availableIcons = yield globAsync(`${ICONS_DIR}/${name}/*`);
-      const availableIconDimensions = availableIcons.map(icon => path.basename(icon, '.svg'));
-      const componentName = name.charAt(0).toUpperCase() + name.slice(1);
+  yield Promise.all(
+    icons.map(
+      Promise.coroutine(function* (fileName) {
+        // Read all the files inside the icon folder and return their names without extension
+        const dimension = findKey(constants, c => c === parseInt(fileName.split('x')[0]));
+        if (typeof dimension === 'undefined') {
+          logs += `⚠️  Invalid size prefix for icon: ${fileName}\n`;
+          return;
+        }
 
-      const stringifiedSVGComponents = yield Promise.all(availableIcons.map(readFile)).then(rawSVGs =>
-        transformSVGToReactComponent(rawSVGs, componentName)
-      );
+        const fileNameWithoutExtension = fileName.substring(fileName.indexOf('_') + 1).split('.')[0];
+        const variation = fileNameWithoutExtension.split('_').pop();
+        const iconName = fileNameWithoutExtension.substring(0, fileNameWithoutExtension.lastIndexOf('_'));
+        const iconNameWithSize = `icon_${iconName}_${dimension}_${variation}`;
+        const componentName = upperFirst(camelCase(`${iconNameWithSize}`));
 
-      // Write the newly created Component strings to file
-      zip(availableIconDimensions, stringifiedSVGComponents).forEach(([dimension, component]) => {
-        const filename = path.join(DIST_DIR, `${name}/${dimension}.js`);
-        writeFile(filename, component);
-      });
+        const rawSVG = readFile(`${ICONS_DIR}/${fileName}`);
+        const stringifiedSVGComponent = yield transformSVGToReactComponent([rawSVG], componentName);
 
-      // Write a simple export index file for easier access
-      const index = availableIconDimensions
-        .map(dimension => `export Icon${dimension} from './${dimension}';`)
-        .join('\n');
-      const indexFilename = path.join(DIST_DIR, `${name}/index.js`);
-      writeFile(indexFilename, index);
-    })
+        // Write the newly created Component strings to file
+        const filename = path.join(DIST_DIR, `${componentName}.js`);
+        writeFile(filename, stringifiedSVGComponent);
+
+        // Write a simple export index file for easier access
+        index += `export ${componentName} from './${componentName}';\n`;
+      })
+    )
   );
+
+  const indexFilename = path.join(DIST_DIR, `index.js`);
+  writeFile(indexFilename, index);
 
   // Copy other necessary files to DIST_DIR
   copyFile(SRC_DIR, DIST_DIR);
 
-  console.log(`[Teamleader] ${iconNames.length} UI Icons generated 🎉`);
+  console.log(clc.green(`[Teamleader] 🎉  ${icons.length} UI Icons generated`));
+
+  if (logs.length) {
+    console.log(clc.yellow(`\n[Teamleader] 😿  We couldn't generate some files because of the following reasons:`));
+    console.log(clc.red(logs));
+  }
 });
 
 fs.remove(DIST_DIR).then(generateSVGs);
