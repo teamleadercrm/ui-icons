@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>14x14_marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="14x14_marker" fill-rule="nonzero" fill="#000000">
+            <path d="M7.84505368,8.62132754 L8.15392871,8.46952793 C9.14214965,7.98385724 9.778,6.99413695 9.778,5.889 C9.778,4.29366983 8.48410039,3 6.889,3 C5.29389961,3 4,4.29366983 4,5.889 C4,6.99401945 4.63576612,7.98393023 5.62334727,8.46966361 L5.93190592,8.62142556 L6.88873632,10.595624 L7.84505368,8.62132754 Z M6.889,2 C9.036,2 10.778,3.741 10.778,5.889 C10.778,7.421 9.883,8.734 8.595,9.367 L7.32833739,11.9819975 C7.08469989,12.4849818 6.69218665,12.4829211 6.44940508,11.9819975 L5.182,9.367 C3.895,8.734 3,7.421 3,5.889 C3,3.741 4.742,2 6.889,2 Z" id="icon"></path>
+        </g>
+    </g>
+</svg>

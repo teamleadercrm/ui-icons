@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>30x30_dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="30x30_dashboard" fill-rule="nonzero" fill="#000000">
+            <path d="M29.21,16.76 L15,2.8 L0.79,16.76 L3.62,19.59 L6,17.21 L6,27 L13,27 L13,21 L17,21 L17,27 L24,27 L24,17.21 L26.38,19.59 L29.21,16.76 Z M2.21,16.76 L15,4.2 L27.79,16.76 L26.38,18.17 L15,6.79 L3.62,18.17 L2.21,16.76 Z M23,26 L18,26 L18,20 L12,20 L12,26 L7,26 L7,16.21 L15,8.21 L23,16.21 L23,26 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
