@@ -19,27 +19,26 @@ const readFile = filename => fs.readFileSync(filename, 'utf8');
 const writeFile = (filename, data) => fs.outputFileSync(filename, data);
 const copyFile = (source, destination) => fs.copySync(source, destination);
 
-const transformSVGToReactComponent = Promise.coroutine(function*(rawSVGs, componentName) {
-  const transformedSVGs = yield Promise.all(rawSVGs.map(svgToJsx));
-  return transformedSVGs.map(transformedSVG => {
-    // Cleaning up; we only need the content *between* the <svg> tags
-    const $ = cheerio.load(transformedSVG, { xmlMode: true });
-    const $svg = $('svg');
-    const viewBox = $svg.attr('viewBox');
+const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, componentName) {
+  const transformedSVG = yield svgToJsx(rawSVG);
 
-    // Actual output of the React component
-    return `
-              import React from 'react';
-              import Icon from '../IconBase';
-              
-              const ${componentName} = props => (
-                <Icon viewBox="${viewBox}" {...props}>
-                  ${$svg.html()}
-                </Icon>
-              );
-              
-              export default ${componentName};`;
-  });
+  // Cleaning up; we only need the content *between* the <svg> tags
+  const $ = cheerio.load(transformedSVG, { xmlMode: true });
+  const $svg = $('svg');
+  const viewBox = $svg.attr('viewBox');
+
+  // Actual output of the React component
+  return `
+            import React from 'react';
+            import Icon from '../IconBase';
+            
+            const ${componentName} = props => (
+              <Icon viewBox="${viewBox}" {...props}>
+                ${$svg.html()}
+              </Icon>
+            );
+            
+            export default ${componentName};`;
 });
 
 const generateSVGs = Promise.coroutine(function* () {
@@ -65,7 +64,7 @@ const generateSVGs = Promise.coroutine(function* () {
         const componentName = upperFirst(camelCase(`${iconNameWithSize}`));
 
         const rawSVG = readFile(`${ICONS_DIR}/${fileName}`);
-        const stringifiedSVGComponent = yield transformSVGToReactComponent([rawSVG], componentName);
+        const stringifiedSVGComponent = yield transformSVGToReactComponent(rawSVG, componentName);
 
         // Write the newly created Component strings to file
         const filename = path.join(DIST_DIR, `${componentName}.js`);
