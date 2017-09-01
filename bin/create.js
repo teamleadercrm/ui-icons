@@ -86,7 +86,7 @@ const generateSVGs = Promise.coroutine(function* () {
   console.log(clc.green(`[Teamleader] 🎉  ${icons.length} UI Icons generated`));
 
   if (logs.length) {
-    console.log(clc.yellow(`\n[Teamleader] 😿  We couldn't generate some files because of the following reasons:`));
+    console.log(clc.yellow(`\n[Teamleader] 😿  We couldn't generate some component(s) because of the following reason(s):`));
     console.log(clc.red(logs));
   }
 });
