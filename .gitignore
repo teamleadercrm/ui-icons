@@ -5,7 +5,6 @@ Thumbs.db
 *~
 coverage/
 *.log*
-dist/
 
 # Client specific
 node_modules
