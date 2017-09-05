@@ -30,7 +30,7 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, compone
   // Actual output of the React component
   return `
             import React from 'react';
-            import Icon from '../IconBase';
+            import Icon from './IconBase';
             
             const ${componentName} = props => (
               <Icon viewBox="${viewBox}" {...props}>
