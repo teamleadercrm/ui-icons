@@ -13,7 +13,7 @@ const constants = require('../src/constants');
 const ROOT_DIR = path.join(__dirname, '..');
 const SRC_DIR = path.join(ROOT_DIR, 'src');
 const ICONS_DIR = path.join(ROOT_DIR, 'icons');
-const DIST_DIR = path.join(ROOT_DIR, 'dist');
+const LIB_DIR = path.join(ROOT_DIR, 'lib');
 
 const readFile = filename => fs.readFileSync(filename, 'utf8');
 const writeFile = (filename, data) => fs.outputFileSync(filename, data);
@@ -68,7 +68,7 @@ const generateSVGs = Promise.coroutine(function* () {
         const stringifiedSVGComponent = yield transformSVGToReactComponent(rawSVG, componentName);
 
         // Write the newly created Component strings to file
-        const filename = path.join(DIST_DIR, `${componentName}.js`);
+        const filename = path.join(LIB_DIR, `${componentName}.js`);
         writeFile(filename, stringifiedSVGComponent);
 
         // Write a simple export index file for easier access
@@ -77,11 +77,11 @@ const generateSVGs = Promise.coroutine(function* () {
     )
   );
 
-  const indexFilename = path.join(DIST_DIR, `index.js`);
+  const indexFilename = path.join(LIB_DIR, `index.js`);
   writeFile(indexFilename, index);
 
-  // Copy other necessary files to DIST_DIR
-  copyFile(SRC_DIR, DIST_DIR);
+  // Copy other necessary files to LIB_DIR
+  copyFile(SRC_DIR, LIB_DIR);
 
   console.log(clc.green(`[Teamleader] 🎉  ${icons.length} UI Icons generated`));
 
@@ -91,4 +91,4 @@ const generateSVGs = Promise.coroutine(function* () {
   }
 });
 
-fs.remove(DIST_DIR).then(generateSVGs);
+fs.remove(LIB_DIR).then(generateSVGs);

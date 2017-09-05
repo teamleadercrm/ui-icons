@@ -51,7 +51,7 @@
     "url": "git+https://github.com/teamleadercrm/ui-icons.git"
   },
   "scripts": {
-    "build": "node ./bin/create && eslint dist --fix",
+    "build": "node ./bin/create && eslint lib --fix",
     "lint": "eslint src bin",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "npm run build"
