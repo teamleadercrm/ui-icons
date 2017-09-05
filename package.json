@@ -41,7 +41,7 @@
     "ui"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "peerDependencies": {
     "react": "^15.6.1"
   },
