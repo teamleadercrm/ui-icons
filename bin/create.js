@@ -19,7 +19,7 @@ const readFile = filename => fs.readFileSync(filename, 'utf8');
 const writeFile = (filename, data) => fs.outputFileSync(filename, data);
 const copyFile = (source, destination) => fs.copySync(source, destination);
 
-const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, componentName) {
+const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, componentName, width, height) {
   const transformedSVG = yield svgToJsx(rawSVG);
 
   // Cleaning up; we only need the content *between* the <svg> tags
@@ -33,7 +33,7 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, compone
             import Icon from './IconBase';
             
             const ${componentName} = props => (
-              <Icon viewBox="${viewBox}" {...props}>
+              <Icon viewBox="${viewBox}" {...props} width="${width}" height="${height}">
                 ${$svg.html()}
               </Icon>
             );
@@ -51,7 +51,14 @@ const generateSVGs = Promise.coroutine(function* () {
     icons.map(
       Promise.coroutine(function* (fileName) {
         // Map the size (eg.: 14x14) to our constant (eg.: SMALL)
-        const dimension = findKey(constants, c => c === parseInt(fileName.split('x')[0]));
+        const width = parseInt(fileName.split('x')[0]);
+        const height = parseInt(fileName.split('x')[1]);
+
+        if (width !== height) {
+          logs += `⚠️  Unequal width and height is not supported: ${fileName}\n`;
+        }
+
+        const dimension = findKey(constants, c => c === width);
         if (typeof dimension === 'undefined') {
           logs += `⚠️  Invalid size prefix for icon: ${fileName}\n`;
           return;
@@ -65,7 +72,7 @@ const generateSVGs = Promise.coroutine(function* () {
         const componentName = upperFirst(camelCase(`${iconNameWithSize}`));
 
         const rawSVG = readFile(`${ICONS_DIR}/${fileName}`);
-        const stringifiedSVGComponent = yield transformSVGToReactComponent(rawSVG, componentName);
+        const stringifiedSVGComponent = yield transformSVGToReactComponent(rawSVG, componentName, width, height);
 
         // Write the newly created Component strings to file
         const filename = path.join(LIB_DIR, `${componentName}.js`);
