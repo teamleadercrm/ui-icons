@@ -8,3 +8,4 @@ coverage/
 
 # Client specific
 node_modules
+lib
