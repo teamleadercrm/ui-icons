@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24_chevron_down_outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24x24_chevron_down_outline" fill="#000000">
+            <path d="M12,12.8555336 L7.75717937,8.61289291 C7.36663852,8.22236862 6.73344669,8.22236862 6.34290583,8.61289291 C5.95236498,9.00341721 5.95236498,9.63658218 6.34290583,10.0271065 L12,15.6839607 L17.6570942,10.0271065 C18.047635,9.63658218 18.047635,9.00341721 17.6570942,8.61289291 C17.2665533,8.22236862 16.6333615,8.22236862 16.2428206,8.61289291 L12,12.8555336 Z" id="Icon"></path>
+        </g>
+    </g>
+</svg>

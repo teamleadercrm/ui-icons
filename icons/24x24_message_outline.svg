@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24_message</title>
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24_message_outline</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="24x24_message" fill="#000000">
-            <path d="M12,3 C7.029,3 3,6.134 3,10 C3,12.427 4.589,14.564 7,15.82 L7,21 L12,17 C16.971,17 21,13.866 21,10 C21,6.134 16.971,3 12,3 M12,4 C16.411,4 20,6.691 20,10 C20,13.309 16.411,16 12,16 L11.649,16 L11.375,16.219 L8,18.919 L8,15.82 L8,15.213 L7.462,14.933 C5.294,13.804 4,11.96 4,10 C4,6.691 7.589,4 12,4" id="Page-1"></path>
+        <g id="24x24_message_outline" fill-rule="nonzero" fill="#000000">
+            <path d="M3,10 C3,12.427 4.589,14.564 7,15.82 L7,21 L12,17 C16.971,17 21,13.866 21,10 C21,6.134 16.971,3 12,3 C7.029,3 3,6.134 3,10 Z M8.2493901,22.5617376 C6.93986341,23.609359 5,22.6770124 5,21 L5,16.9554672 C2.52507963,15.2917844 1,12.7833838 1,10 C1,4.90375327 6.01894626,1 12,1 C17.9810537,1 23,4.90375327 23,10 C23,14.8887211 18.3814869,18.6800911 12.7256081,18.9807632 L8.2493901,22.5617376 Z" id="Icon"></path>
         </g>
     </g>
 </svg>

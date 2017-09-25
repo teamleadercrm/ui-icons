@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24_stats_outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24x24_stats_outline" fill="#000000">
+            <path d="M19,5 L19,18 L17,18 L17,6 L13,6 L13,4 L19,4 L19,5 Z M9,12 L7,12 L7,18 L5,18 L5,10 L6,10 L9,10 L9,8.5 L9,7 L13,7 L13,6 L15,6 L15,18 L13,18 L13,9 L11,9 L11,18 L9,18 L9,12 Z M3,19 L21,19 C21.5522847,19 22,19.4477153 22,20 C22,20.5522847 21.5522847,21 21,21 L3,21 C2.44771525,21 2,20.5522847 2,20 C2,19.4477153 2.44771525,19 3,19 L3,19 Z" id="Icon"></path>
+        </g>
+    </g>
+</svg>

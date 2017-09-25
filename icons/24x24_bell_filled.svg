@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24_bell_filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24x24_bell_filled" fill-rule="nonzero" fill="#000000">
+            <path d="M12,21 C13.1,21 14,20.1 14,19 L10,19 C10,20.1 10.9,21 12,21 Z M18,15 L18,10 C18,6.93 16.37,4.36 13.5,3.68 L13.5,3 C13.5,2.17 12.83,1.5 12,1.5 C11.17,1.5 10.5,2.17 10.5,3 L10.5,3.68 C7.64,4.36 6,6.92 6,10 L6,15 L4.70710678,16.2928932 L4.70710678,16.2928932 C4.31658249,16.6834175 4.31658249,17.3165825 4.70710678,17.7071068 C4.89464316,17.8946432 5.14899707,18 5.41421356,18 L18.5857864,18 L18.5857864,18 C19.1380712,18 19.5857864,17.5522847 19.5857864,17 C19.5857864,16.7347835 19.4804296,16.4804296 19.2928932,16.2928932 L18,15 Z" id="Icon"></path>
+        </g>
+    </g>
+</svg>
