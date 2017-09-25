@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24_add_contact_outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24x24_add_contact_outline" fill="#000000">
+            <path d="M11,3 C9.07,3 7.5,4.57 7.5,6.5 C7.5,8.43 9.07,10 11,10 C12.93,10 14.5,8.43 14.5,6.5 C14.5,4.57 12.93,3 11,3 Z M16.1950649,18 C15.1562878,16.2077707 13.2168288,15 11,15 C7.691,15 5,17.691 5,21 L3,21 C3,16.589 6.589,13 11,13 C14.3506929,13 17.2270707,15.0709451 18.416298,18 L16.1950649,18 Z M11,12 C7.967,12 5.5,9.533 5.5,6.5 C5.5,3.467 7.967,1 11,1 C14.033,1 16.5,3.467 16.5,6.5 C16.5,9.533 14.033,12 11,12 Z M22,20 L24,20 L24,22 L22,22 L22,24 L20,24 L20,22 L18,22 L18,20 L20,20 L20,18 L22,18 L22,20 Z" id="Icon"></path>
+        </g>
+    </g>
+</svg>

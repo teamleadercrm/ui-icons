@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24_building</title>
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24_building_outline</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="24x24_building" fill="#000000">
-            <path d="M17,10 L21,10 L21,21 L20,21 L20,11 L17,11 L16,11 L13,11 L13,21 L12,21 L12,10 L12,4.258 L6,6.83 L6,14 L10,14 L10,21 L9,21 L9,15 L6,15 L5,15 L4,15 L4,21 L3,21 L3,14 L5,14 L5,6.17 L13,2.742 L13,10 L16,10 L16,8 L17,8 L17,10 Z M15,14 L15,13 L18,13 L18,14 L15,14 Z M15,17 L15,16 L18,16 L18,17 L15,17 Z M15,20 L15,19 L18,19 L18,20 L15,20 Z M8,9 L8,8 L10,8 L10,9 L8,9 Z M8,12 L8,11 L10,11 L10,12 L8,12 Z" id="mask"></path>
+        <g id="24x24_building_outline" fill="#000000">
+            <path d="M18,10 L22,10 L22,22 L20,22 L20,12 L14,12 L14,21 L14,22 L12,22 L12,21 L12,10 L12,4.943 L6,7.193 L6,14 L10,14 L10,22 L8,22 L8,16 L4,16 L4,22 L2,22 L2,14 L4,14 L4,6.5 C4,6.083 4.259,5.71 4.649,5.563 L12.649,2.563 C12.957,2.449 13.3,2.491 13.57,2.678 C13.839,2.865 14,3.172 14,3.5 L14,10 L16,10 L16,8 L18,8 L18,10 Z M16,16 L16,14 L18,14 L18,16 L16,16 Z M8,12 L8,10 L10,10 L10,12 L8,12 Z M16,20 L16,18 L18,18 L18,20 L16,20 Z" id="Icon"></path>
         </g>
     </g>
 </svg>

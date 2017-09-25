@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24_add</title>
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24_add_outline</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="24x24_add" fill="#000000">
-            <path d="M12.5,11.5 L12.5,4 C12.5,3.724 12.276,3.5 12,3.5 C11.724,3.5 11.5,3.724 11.5,4 L11.5,11.5 L4,11.5 C3.724,11.5 3.5,11.724 3.5,12 C3.5,12.276 3.724,12.5 4,12.5 L11.5,12.5 L11.5,20 C11.5,20.276 11.724,20.5 12,20.5 C12.276,20.5 12.5,20.276 12.5,20 L12.5,12.5 L20,12.5 C20.276,12.5 20.5,12.276 20.5,12 C20.5,11.724 20.276,11.5 20,11.5 L12.5,11.5 Z" id="icon"></path>
+        <g id="24x24_add_outline" fill="#000000">
+            <path d="M13,11 L13,4 C13,3.44771525 12.5522847,3 12,3 C11.4477153,3 11,3.44771525 11,4 L11,4 L11,11 L4,11 C3.44771525,11 3,11.4477153 3,12 C3,12.5522847 3.44771525,13 4,13 L11,13 L11,20 C11,20.5522847 11.4477153,21 12,21 C12.5522847,21 13,20.5522847 13,20 L13,13 L20,13 C20.5522847,13 21,12.5522847 21,12 C21,11.4477153 20.5522847,11 20,11 L13,11 Z" id="Icon"></path>
         </g>
     </g>
 </svg>
