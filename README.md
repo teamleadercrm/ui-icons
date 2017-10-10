@@ -54,7 +54,7 @@ Don't forget to transform your newly added SVGs to React components by running
 $ npm run build
 ```
 
-If you are satisifed with your updates, make sure to bump the version number in the `package.json` file and publish it for others to use by running
+If you are satisfied with your updates, make sure to bump the version number in the `package.json` file and publish it for others to use by running
 
 ```sh
 $ npm publish --access=public
