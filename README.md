@@ -17,7 +17,7 @@ If you're already using [teamleader-ui](https://www.npmjs.com/package/teamleader
 ```jsx
 import React from 'react';
 import { render } from 'react-dom';
-import { Button } from 'teamleader-ui';
+import { Button } from '@teamleader/ui';
 import { IconWarningMediumFilled } from '@teamleader/ui-icons';
 
 const App = () => {
