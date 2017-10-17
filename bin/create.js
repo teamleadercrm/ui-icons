@@ -5,7 +5,7 @@ const camelCase = require('lodash.camelcase');
 const upperFirst = require('lodash.upperfirst');
 const findKey = require('lodash.findkey');
 const fs = Promise.promisifyAll(require('fs-extra'));
-const {globAsync} = Promise.promisifyAll(require('glob'));
+const { globAsync } = Promise.promisifyAll(require('glob'));
 const svgToJsx = require('@balajmarius/svg-to-jsx');
 const clc = require('cli-color');
 const constants = require('../src/constants');
@@ -25,6 +25,16 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, compone
   // Cleaning up; we only need the content *between* the <svg> tags
   const $ = cheerio.load(transformedSVG, { xmlMode: true });
   const $svg = $('svg');
+
+  // Traversing the DOM to find all `<g>` and `<path>` tags and make sure they have `fill="currentColor"`
+  // Icon source can be whatever color (usually black) but it will always be filled according to its parent element
+  $svg.find('g, path').map((idx, tag) => {
+    const tagAttrFill = $(tag).attr('fill');
+    if (tagAttrFill && tagAttrFill.startsWith('#')) {
+      $(tag).attr('fill', 'currentColor');
+    }
+  });
+
   const viewBox = $svg.attr('viewBox');
 
   // Actual output of the React component
@@ -41,7 +51,7 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, compone
             export default ${componentName};`;
 });
 
-const generateSVGs = Promise.coroutine(function* () {
+const generateSVGs = Promise.coroutine(function*() {
   const iconsToProcess = yield globAsync(`${ICONS_DIR}/*`);
   const icons = iconsToProcess.map(folder => path.basename(folder));
   let index = '';
@@ -49,7 +59,7 @@ const generateSVGs = Promise.coroutine(function* () {
 
   yield Promise.all(
     icons.map(
-      Promise.coroutine(function* (fileName) {
+      Promise.coroutine(function*(fileName) {
         // Map the size (eg.: 14x14) to our constant (eg.: SMALL)
         const width = parseInt(fileName.split('x')[0]);
         const height = parseInt(fileName.split('x')[1]);
@@ -93,7 +103,9 @@ const generateSVGs = Promise.coroutine(function* () {
   console.log(clc.green(`[Teamleader] 🎉  ${icons.length} UI Icons generated`));
 
   if (logs.length) {
-    console.log(clc.yellow(`\n[Teamleader] 😿  We couldn't generate some component(s) because of the following reason(s):`));
+    console.log(
+      clc.yellow(`\n[Teamleader] 😿  We couldn't generate some component(s) because of the following reason(s):`)
+    );
     console.log(clc.red(logs));
   }
 });
