@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24_calendar_outline</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="24x24_calendar_outline" fill="#000000">
-            <path d="M18.5,4 C19.879,4 21,5.192125 21,6.65625 L21,18.34375 C21,19.807875 19.879,21 18.5,21 L5.5,21 C4.121,21 3,19.807875 3,18.34375 L3,6.65625 C3,5.192125 4.121,4 5.5,4 L18.5,4 Z M7.5,2 C8.32842712,2 9,2.67157288 9,3.5 L9,4 L6,4 L6,3.5 L6,3.5 C6,2.67157288 6.67157288,2 7.5,2 Z M16.5,2 C17.3284271,2 18,2.67157288 18,3.5 L18,4 L15,4 L15,3.5 L15,3.5 C15,2.67157288 15.6715729,2 16.5,2 Z M6,6 C5.44771525,6 5,6.44771525 5,7 L5,7 L5,7.5 L5,9 L19,9 L19,7 C19,6.44771525 18.5522847,6 18,6 L6,6 Z M5,11 L5,18 C5,18.5522847 5.44771525,19 6,19 L18,19 C18.5522847,19 19,18.5522847 19,18 L19,11 L5,11 Z" id="Icon"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="24x24_calendar_outline-a" d="M17,5 L19,5 C20.1045695,5 21,5.8954305 21,7 L21,19 C21,20.1045695 20.1045695,21 19,21 L5,21 C3.8954305,21 3,20.1045695 3,19 L3,7 C3,5.8954305 3.8954305,5 5,5 L7,5 L7,4 C7,3.44771525 7.44771525,3 8,3 C8.55228475,3 9,3.44771525 9,4 L9,5 L15,5 L15,4 C15,3.44771525 15.4477153,3 16,3 C16.5522847,3 17,3.44771525 17,4 L17,5 Z M5,10 L5,19 L19,19 L19,10 L5,10 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" xlink:href="#24x24_calendar_outline-a"/>
+  </g>
 </svg>

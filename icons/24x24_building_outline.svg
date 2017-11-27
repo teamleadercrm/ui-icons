@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>24x24_building_outline</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="24x24_building_outline" fill="#000000">
-            <path d="M18,10 L22,10 L22,22 L20,22 L20,12 L14,12 L14,21 L14,22 L12,22 L12,21 L12,10 L12,4.943 L6,7.193 L6,14 L10,14 L10,22 L8,22 L8,16 L4,16 L4,22 L2,22 L2,14 L4,14 L4,6.5 C4,6.083 4.259,5.71 4.649,5.563 L12.649,2.563 C12.957,2.449 13.3,2.491 13.57,2.678 C13.839,2.865 14,3.172 14,3.5 L14,10 L16,10 L16,8 L18,8 L18,10 Z M16,16 L16,14 L18,14 L18,16 L16,16 Z M8,12 L8,10 L10,10 L10,12 L8,12 Z M16,20 L16,18 L18,18 L18,20 L16,20 Z" id="Icon"></path>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="24x24_building_outline-a" d="M12,20 L12,6 L6,6 L6,12 L8,12 L8,12 C9.1045695,12 10,12.8954305 10,14 L10,20 L8,20 L8,14 L4,14 L4,20 L2,20 L2,14 L2,14 C2,12.8954305 2.8954305,12 4,12 L4,12 L4,6 L4,6 C4,4.8954305 4.8954305,4 6,4 L12,4 L12,4 C13.1045695,4 14,4.8954305 14,6 L14,9 L16,9 L16,7 L16,7 C16,6.44771525 16.4477153,6 17,6 L17,6 L17,6 C17.5522847,6 18,6.44771525 18,7 L18,9 L20,9 L20,9 C21.1045695,9 22,9.8954305 22,11 L22,20 L20,20 L20,11 L14,11 L14,20 L12,20 Z"/>
+    <rect id="24x24_building_outline-c" width="6" height="9" x="14" y="11"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="24x24_building_outline-b" fill="#fff">
+      <use xlink:href="#24x24_building_outline-a"/>
+    </mask>
+    <use fill="#000" xlink:href="#24x24_building_outline-a"/>
+    <g mask="url(#24x24_building_outline-b)">
+      <use fill="#D8D8D8" xlink:href="#24x24_building_outline-c"/>
+      <rect width="5" height="8" x="14.5" y="11.5" stroke="#979797"/>
     </g>
+  </g>
 </svg>
