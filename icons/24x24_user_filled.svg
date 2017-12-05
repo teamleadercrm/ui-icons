@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
-  <defs>
-    <path id="24x24_user_filled-a" d="M4,20 C4,15.589 7.589,12 12,12 C16.411,12 20,15.589 20,20 L4,20 Z M4,20 L20,20 L20,21 L4,21 L4,20 Z M12,10 C9.790861,10 8,8.209139 8,6 C8,3.790861 9.790861,2 12,2 C14.209139,2 16,3.790861 16,6 C16,8.209139 14.209139,10 12,10 Z"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <use fill="#000" xlink:href="#24x24_user_filled-a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g fill-rule="evenodd">
+    <path d="M12,12 C16.418278,12 20,15.581722 20,20 L20,22 L4,22 L4,20 C4,15.581722 7.581722,12 12,12 Z M12,10 C9.790861,10 8,8.209139 8,6 C8,3.790861 9.790861,2 12,2 C14.209139,2 16,3.790861 16,6 C16,8.209139 14.209139,10 12,10 Z"/>
+    <polygon points="4 20 20 20 20 22 4 22"/>
   </g>
 </svg>
