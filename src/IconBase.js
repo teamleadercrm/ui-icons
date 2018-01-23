@@ -12,7 +12,7 @@ const IconBase = ({ children, color, size, style, width, height, opacity, ...pro
       width={width || computedSize}
       {...props}
       style={{
-        opacity: opacity || '0.84',
+        opacity,
         verticalAlign: 'middle',
         color,
         ...style,
@@ -28,6 +28,10 @@ IconBase.propTypes = {
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   opacity: PropTypes.number,
   style: PropTypes.object,
+};
+
+IconBase.defaultProps = {
+  opacity: 0.84,
 };
 
 export default IconBase;
