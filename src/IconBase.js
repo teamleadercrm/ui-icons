@@ -12,7 +12,7 @@ const IconBase = ({ children, color, size, style, width, height, opacity, ...pro
       width={width || computedSize}
       {...props}
       style={{
-        opacity: opacity || 0.84,
+        opacity: opacity || '0.84',
         verticalAlign: 'middle',
         color,
         ...style,
