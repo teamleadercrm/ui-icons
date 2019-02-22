@@ -6,7 +6,7 @@ const upperFirst = require('lodash.upperfirst');
 const findKey = require('lodash.findkey');
 const fs = Promise.promisifyAll(require('fs-extra'));
 const { globAsync } = Promise.promisifyAll(require('glob'));
-const svgToJsx = require('@balajmarius/svg-to-jsx');
+const svgToJsx = require('@balajmarius/svg2jsx');
 const clc = require('cli-color');
 const constants = require('../src/constants');
 
