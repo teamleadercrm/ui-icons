@@ -90,8 +90,8 @@ const generateSVGs = Promise.coroutine(function*() {
 
         // Write a simple export index file for easier access
         index += `export ${componentName} from './${componentName}';\n`;
-      })
-    )
+      }),
+    ),
   );
 
   const indexFilename = path.join(LIB_DIR, `index.js`);
@@ -104,7 +104,7 @@ const generateSVGs = Promise.coroutine(function*() {
 
   if (logs.length) {
     console.log(
-      clc.yellow(`\n[Teamleader] 😿  We couldn't generate some component(s) because of the following reason(s):`)
+      clc.yellow(`\n[Teamleader] 😿  We couldn't generate some component(s) because of the following reason(s):`),
     );
     console.log(clc.red(logs));
   }

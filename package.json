@@ -6,6 +6,7 @@
   "bugs": {
     "url": "https://github.com/teamleadercrm/ui-icons/issues"
   },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.3.3",
@@ -51,12 +52,12 @@
     "build": "npm run build:es; npm run build:cjs",
     "build:cjs": "NODE_ENV=cjs babel lib --out-dir cjs",
     "build:es": "NODE_ENV=es babel lib --out-dir es",
-    "lint:src": "prettier \"{bin,src}/*.js\"",
-    "lint:src:fix": "prettier --write \"{bin,src}/*.js\"",
-    "lint:lib": "prettier \"lib/*.js\"",
-    "lint:lib:fix": "prettier --write \"lib/*.js\"",
     "lint": "npm run lint:src; npm run lint:lib",
     "lint:fix": "npm run lint:src:fix; npm run lint:lib:fix",
+    "lint:lib": "prettier \"lib/*.js\"",
+    "lint:lib:fix": "prettier --write \"lib/*.js\"",
+    "lint:src": "prettier \"{bin,src}/*.js\"",
+    "lint:src:fix": "prettier --write \"{bin,src}/*.js\"",
     "prebuild": "node ./bin/create && npm run lint:lib:fix",
     "prepare": "npm run build"
   },
