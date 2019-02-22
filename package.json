@@ -7,10 +7,13 @@
     "url": "https://github.com/teamleadercrm/ui-icons/issues"
   },
   "devDependencies": {
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
     "@balajmarius/svg2jsx": "^1.0.8",
     "bluebird": "^3.5.1",
     "cheerio": "^1.0.0-rc.2",
@@ -52,7 +55,4 @@
     "lint:fix": "npm run lint:src:fix; npm run lint:lib:fix",
     "prepare": "npm run build"
   },
-  "dependencies": {
-    "babel-cli": "^6.26.0"
-  }
 }
