@@ -60,4 +60,5 @@
     "prebuild": "node ./bin/create && npm run lint:lib:fix",
     "prepare": "npm run build"
   },
+  "sideEffects": false
 }
