@@ -1,7 +1,8 @@
 .idea
 .babelrc
 .editorconfig
-.eslintrc
+.prettierrc
 bin
 icons
 lib
+src
