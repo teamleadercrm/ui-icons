@@ -30,13 +30,15 @@
     "npm": "^5.0.0"
   },
   "homepage": "https://github.com/teamleadercrm/ui-icons#readme",
+  "jsnext:main": "es/index.js",
   "keywords": [
     "icons",
     "teamleader",
     "ui"
   ],
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0"
   },
