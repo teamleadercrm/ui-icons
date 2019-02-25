@@ -1,10 +1,27 @@
 {
   "presets": [
-    "es2015",
-    "stage-0",
-    "react"
+    "@babel/preset-react"
   ],
   "plugins": [
-    "transform-runtime"
-  ]
+    "@babel/plugin-proposal-export-default-from"
+  ],
+  "env": {
+    "es": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false
+          }
+        ]
+      ]
+    },
+    "cjs": {
+      "presets": [
+        [
+          "@babel/preset-env"
+        ]
+      ]
+    }
+  }
 }

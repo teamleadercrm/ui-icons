@@ -6,7 +6,7 @@ const upperFirst = require('lodash.upperfirst');
 const findKey = require('lodash.findkey');
 const fs = Promise.promisifyAll(require('fs-extra'));
 const { globAsync } = Promise.promisifyAll(require('glob'));
-const svgToJsx = require('@balajmarius/svg-to-jsx');
+const svgToJsx = require('@balajmarius/svg2jsx');
 const clc = require('cli-color');
 const constants = require('../src/constants');
 
@@ -90,8 +90,8 @@ const generateSVGs = Promise.coroutine(function*() {
 
         // Write a simple export index file for easier access
         index += `export ${componentName} from './${componentName}';\n`;
-      })
-    )
+      }),
+    ),
   );
 
   const indexFilename = path.join(LIB_DIR, `index.js`);
@@ -104,7 +104,7 @@ const generateSVGs = Promise.coroutine(function*() {
 
   if (logs.length) {
     console.log(
-      clc.yellow(`\n[Teamleader] 😿  We couldn't generate some component(s) because of the following reason(s):`)
+      clc.yellow(`\n[Teamleader] 😿  We couldn't generate some component(s) because of the following reason(s):`),
     );
     console.log(clc.red(logs));
   }
