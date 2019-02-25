@@ -31,7 +31,6 @@
     "npm": "^5.0.0"
   },
   "homepage": "https://github.com/teamleadercrm/ui-icons#readme",
-  "jsnext:main": "es/index.js",
   "keywords": [
     "icons",
     "teamleader",
