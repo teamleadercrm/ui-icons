@@ -2,6 +2,9 @@
 
 ### Added
 
+- 24x24_kanban_filled.svg
+- 24x24_kanban_outline.svg
+
 ### Changed
 
 ### Deprecated
@@ -13,6 +16,7 @@
 ## [0.2.12] - 2019-02-25
 
 ### Fixed
+
 This package now has proper support for tree shaking.
 
 ## [0.2.11] - 2019-01-28
