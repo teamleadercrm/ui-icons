@@ -2,9 +2,6 @@
 
 ### Added
 
-- 24x24_kanban_filled.svg
-- 24x24_kanban_outline.svg
-
 ### Changed
 
 ### Deprecated
@@ -12,6 +9,13 @@
 ### Removed
 
 ### Fixed
+
+## [0.2.13] - 2019-03-19
+
+### Added
+
+- 24x24_kanban_filled.svg
+- 24x24_kanban_outline.svg
 
 ## [0.2.12] - 2019-02-25
 
