@@ -10,6 +10,18 @@
 
 ### Fixed
 
+## [0.2.14] - 2019-03-20
+
+### Added
+
+- 24x24_datagrid_filled.svg
+- 24x24_datagrid_outline.svg
+
+### Changed
+
+- 24x24_kanban_filled.svg
+- 24x24_kanban_outline.svg
+
 ## [0.2.13] - 2019-03-19
 
 ### Added
