@@ -1,14 +1,8 @@
-## [unreleased]
+## [0.2.15] - 2019-04-17
 
 ### Added
 
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
+- 14x14_invoice_outline.svg
 
 ## [0.2.14] - 2019-03-20
 
