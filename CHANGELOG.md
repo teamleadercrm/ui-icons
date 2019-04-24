@@ -1,3 +1,65 @@
+## [0.2.16] - 2019-04-23
+
+### Added
+
+- 14x14_copy_outline.svg
+- 14x14_document_accept_outline.svg
+- 14x14_download_outline.svg
+- 14x14_dropbox_filled.svg
+- 14x14_google_drive_filled.svg
+- 14x14_invoice_filled.svg
+- 14x14_mail_filled.svg
+- 14x14_merge_outline.svg
+- 14x14_note_filled.svg
+- 14x14_note_outline.svg
+- 14x14_overview_filled.svg
+- 14x14_overview_outline.svg
+- 14x14_products_filled.svg
+- 14x14_products_outline.svg
+- 14x14_projects_filled.svg
+- 14x14_projects_outline.svg
+- 14x14_refresh_outline.svg
+- 14x14_rewind_outline.svg
+- 14x14_send_outline.svg
+- 14x14_stop_filled.svg
+- 14x14_template_outline.svg
+- 14x14_ticket_add_outline.svg
+- 14x14_ticket_remove_outline.svg
+- 14x14_ticket_save_outline.svg
+
+- 24x24_calendar_today_outline.svg
+- 24x24_card_scanner_outline.svg
+- 24x24_copy_outline.svg
+- 24x24_credit_card_outline.svg
+- 24x24_directions_filled.svg
+- 24x24_directions_outline.svg
+- 24x24_dropbox_filled.svg
+- 24x24_exit_outline.svg
+- 24x24_export_outline.svg
+- 24x24_filter_filled.svg
+- 24x24_filter_outline.svg
+- 24x24_google_drive_filled.svg
+- 24x24_image_filled.svg
+- 24x24_image_outline.svg
+- 24x24_import_outline.svg
+- 24x24_linkedin_filled.svg
+- 24x24_minus_outline.svg
+- 24x24_note_filed.svg
+- 24x24_note_outline.svg
+- 24x24_pauze_filled.svg
+- 24x24_play_filled.svg
+- 24x24_share_android_outline.svg
+- 24x24_stop_filled.svg
+- 24x24_template_outline.svg
+- 24x24_user_remove_outline.svg
+- 24x24_workorder_add_outline.svg
+- 24x24_workorder_outline.svg
+
+### Changed
+
+- 14x14_task_filled.svg
+- 14x14_task_outline.svg
+
 ## [0.2.15] - 2019-04-17
 
 ### Added
