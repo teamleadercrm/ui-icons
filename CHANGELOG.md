@@ -1,3 +1,11 @@
+
+## [0.2.17] - 2019-04-24
+
+### Added
+
+- 24x24_sign_outline.svg
+- 24x24_gallery_outline.svg
+
 ## [0.2.16] - 2019-04-23
 
 ### Added
