@@ -1,3 +1,12 @@
+## [0.2.18] - 2019-07-05
+
+### Changed
+
+- 24x24_add_outline.svg
+- 24x24_filter_filled.svg
+- 24x24_filter_outline.svg
+- 24x24_trash_filled.svg
+- 24x24_trash_outline.svg
 
 ## [0.2.17] - 2019-04-24
 
