@@ -19,7 +19,7 @@
     "bluebird": "^3.5.1",
     "cheerio": "^1.0.0-rc.2",
     "cli-color": "^1.2.0",
-    "fs-extra": "^4.0.2",
+    "fs-extra": "^8.1.0",
     "glob": "^7.1.2",
     "lodash.camelcase": "^4.3.0",
     "lodash.findkey": "^4.6.0",
