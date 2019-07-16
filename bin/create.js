@@ -1,9 +1,9 @@
 const path = require('path');
 const Promise = require('bluebird');
 const cheerio = require('cheerio');
-const camelCase = require('lodash.camelcase');
-const upperFirst = require('lodash.upperfirst');
-const findKey = require('lodash.findkey');
+const camelCase = require('lodash/camelcase');
+const upperFirst = require('lodash/upperfirst');
+const findKey = require('lodash/findkey');
 const fs = Promise.promisifyAll(require('fs-extra'));
 const { globAsync } = Promise.promisifyAll(require('glob'));
 const svgToJsx = require('@balajmarius/svg2jsx');
