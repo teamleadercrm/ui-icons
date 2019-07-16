@@ -6,9 +6,7 @@
   "bugs": {
     "url": "https://github.com/teamleadercrm/ui-icons/issues"
   },
-  "dependencies": {
-    "lodash": "^4.17.14"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
@@ -23,6 +21,7 @@
     "cli-color": "^1.2.0",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.2",
+    "lodash": "^4.17.14",
     "prettier": "^1.16.4"
   },
   "engines": {
