@@ -21,9 +21,7 @@
     "cli-color": "^1.2.0",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.2",
-    "lodash.camelcase": "^4.3.0",
-    "lodash.findkey": "^4.6.0",
-    "lodash.upperfirst": "^4.3.1",
+    "lodash": "^4.17.14",
     "prettier": "^1.16.4"
   },
   "engines": {
