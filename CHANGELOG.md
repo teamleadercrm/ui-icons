@@ -1,3 +1,9 @@
+## [0.2.19] - 2019-08-08
+### Added
+
+- 14x14_cols_outline.svg
+- 14x14_rows_outline.svg
+
 ## [0.2.18] - 2019-07-05
 
 ### Changed
