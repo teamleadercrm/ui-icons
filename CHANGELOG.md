@@ -1,3 +1,24 @@
+## [0.2.19] - 2019-08-08
+### Added
+
+- 14x14_cols_outline.svg
+- 14x14_rows_outline.svg
+
+### Dependency updates
+
+- `@babel/cli` from `^7.0.0` to `^7.5.0`
+- `@babel/core` from `^7.3.3` to `^7.5.4`
+- `@babel/plugin-proposal-export-default-from` from `^7.2.0` to `^7.5.2`
+- `@babel/plugin-transform-runtime` from `^7.2.0` to `^7.5.0`
+- `@babel/preset-env` from `^7.3.1` to `^7.5.4`
+- `@babel/register` from `^7.0.0` to `^7.4.4`
+- `fs-extra` from `^4.0.2` to `^8.1.0`
+
+### Dependency replacements
+- `lodash.camelcase@^4.3.0` replaced by `lodash@^4.17.14`
+- `lodash.findkey@^4.6.0` replaced by `lodash@^4.17.14`
+- `lodash.upperfirst@^4.3.1` replaced by `lodash@^4.17.14`
+
 ## [0.2.18] - 2019-07-05
 
 ### Changed
