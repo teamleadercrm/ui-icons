@@ -1,4 +1,21 @@
+## [unreleased]
+
+### Added
+
+### Changed
+
+- Loosen engine constraints to allow node version > 8 and npm versions > 5 ([@rathesDot](https://github.com/rathesDot) in [#63](https://github.com/teamleadercrm/ui/pull/63))
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Dependency updates
+
 ## [0.2.19] - 2019-08-08
+
 ### Added
 
 - 14x14_cols_outline.svg
@@ -15,6 +32,7 @@
 - `fs-extra` from `^4.0.2` to `^8.1.0`
 
 ### Dependency replacements
+
 - `lodash.camelcase@^4.3.0` replaced by `lodash@^4.17.14`
 - `lodash.findkey@^4.6.0` replaced by `lodash@^4.17.14`
 - `lodash.upperfirst@^4.3.1` replaced by `lodash@^4.17.14`
