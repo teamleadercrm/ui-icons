@@ -4,8 +4,6 @@
 
 ### Changed
 
-- Loosen engine constraints to allow node version > 8 and npm versions > 5 ([@rathesDot](https://github.com/rathesDot) in [#63](https://github.com/teamleadercrm/ui/pull/63))
-
 ### Deprecated
 
 ### Removed
@@ -13,6 +11,18 @@
 ### Fixed
 
 ### Dependency updates
+
+## [0.2.20] - 2019-09-09
+
+### Changed
+
+- Loosen engine constraints to allow node version > 8 and npm versions > 5 ([@rathesDot](https://github.com/rathesDot) in [#63](https://github.com/teamleadercrm/ui/pull/63))
+
+### Dependency updates
+
+- `@babel/cli` from `^7.5.5` to `^7.6.0`
+- `@babel/core` from `^7.5.5` to `^7.6.0`
+- `@babel/preset-env` from `^7.5.5` to `^7.6.0`
 
 ## [0.2.19] - 2019-08-08
 
