@@ -12,6 +12,22 @@
 
 ### Dependency updates
 
+## [0.2.21] 2019-10-07
+
+### Added
+
+- 14x14_idea_filled.svg
+
+### Dependency updates
+
+- `@babel/cli` from `^7.6.0` to `^7.6.2`
+- `@babel/core` from `^7.6.0` to `^7.6.2`
+- `@babel/plugin-transform-runtime` from `^7.5.5` to `^7.6.2`
+- `@babel/preset-env` from `^7.6.0` to `^7.6.2`
+- `@babel/register` from `^7.5.5` to `^7.6.2`
+- `@balajmarius/svg2jsx` from `^1.1.0` to `^2.0.0`
+- `bluebird` from `^3.5.5` to `^3.7.0`
+
 ## [0.2.20] - 2019-09-09
 
 ### Changed
