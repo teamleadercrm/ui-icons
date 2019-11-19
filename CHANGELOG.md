@@ -12,6 +12,22 @@
 
 ### Dependency updates
 
+## [0.2.22] 2019-11-19
+
+### Added
+
+- 14x14_user_add_outline.svg
+
+### Dependency updates
+
+- `@babel/cli` from `7.6.2` to `7.6.4`
+- `@babel/core` from `7.6.2` to `7.6.4`
+- `@babel/preset-env` from `7.6.2` to `7.6.3`
+- `@babel/preset-react` from `7.0.0` to `7.6.3`
+- `bluebird` from `3.7.0` to `3.7.1`
+- `cli-color` from `1.4.0` to `2.0.0`
+- `glob` from `7.1.4` to `7.1.5`
+
 ## [0.2.21] 2019-10-07
 
 ### Added
