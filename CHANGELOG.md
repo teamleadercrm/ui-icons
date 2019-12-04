@@ -2,6 +2,9 @@
 
 ### Added
 
+- 24x24_info_badged_filled.svg
+- 24x24_info_badged_outline.svg
+
 ### Changed
 
 ### Deprecated
