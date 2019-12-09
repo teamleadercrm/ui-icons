@@ -2,9 +2,6 @@
 
 ### Added
 
-- 24x24_info_badged_filled.svg
-- 24x24_info_badged_outline.svg
-
 ### Changed
 
 ### Deprecated
@@ -14,6 +11,25 @@
 ### Fixed
 
 ### Dependency updates
+
+## [0.2.23] 2019-12-09
+
+### Added
+
+- 24x24_info_badged_filled.svg
+- 24x24_info_badged_outline.svg
+
+### Dependency updates
+
+- `@babel/cli` from `7.6.4` to `7.7.5`
+- `@babel/core` from `7.6.4` to `7.7.5`
+- `@babel/plugin-transform-runtime` from `7.6.2` to `7.7.6`
+- `@babel/preset-env` from `7.6.3` to `7.7.4`
+- `@babel/preset-react` from `7.6.3` to `7.7.4`
+- `@babel/register` from `7.6.2` to `7.7.4`
+- `bluebird` from `3.7.1` to `3.7.2`
+- `glob` from `7.1.5` to `7.1.6`
+- `prettier` from `1.18.2` to `1.19.1`
 
 ## [0.2.22] 2019-11-19
 
