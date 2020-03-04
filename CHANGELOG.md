@@ -2,6 +2,8 @@
 
 ### Added
 
+- 24x24_workorder_filled.svg
+
 ### Changed
 
 ### Deprecated
