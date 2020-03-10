@@ -2,8 +2,6 @@
 
 ### Added
 
-- 24x24_workorder_filled.svg
-
 ### Changed
 
 ### Deprecated
@@ -12,7 +10,11 @@
 
 ### Fixed
 
-### Dependency updates
+## [0.2.24] 2020-03-10
+
+### Added
+
+- 24x24_workorder_filled.svg
 
 ## [0.2.23] 2019-12-09
 
