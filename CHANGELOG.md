@@ -4,6 +4,8 @@
 
 ### Changed
 
+- `Build process & dependency resolution`: changed from npm to yarn, added yarn.lock ([@driesd](https://github.com/driesd) in [#143](https://github.com/teamleadercrm/ui-icons/pull/143))
+
 ### Deprecated
 
 ### Removed
