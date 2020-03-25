@@ -10,6 +10,12 @@ Teamleader's icons package is [available on npm](https://www.npmjs.com/package/@
 $ npm install --save @teamleader/ui-icons
 ```
 
+or
+
+```bash
+$ yarn install @teamleader/ui-icons
+```
+
 If you're already using [teamleader-ui](https://www.npmjs.com/package/teamleader-ui) in your application, you can access the icons using the sub-repo notation `'@teamleader-ui/icons'`.
 
 ## Usage
