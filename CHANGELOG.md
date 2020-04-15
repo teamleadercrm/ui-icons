@@ -2,6 +2,12 @@
 
 ### Added
 
+- 24x_24_link_outline.svg
+- 24x_24_list_numered_outline.svg
+- 24x_24_list_outline.svg
+- 24x_24_text_bold_outline.svg
+- 24x_24_text_italic_outline.svg
+
 ### Changed
 
 ### Deprecated
