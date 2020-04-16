@@ -12,13 +12,23 @@
 
 ### Dependency updates
 
+## [0.2.28] 2020-04-16
+
+### Added
+
+- 24x24_drag_filled.svg
+
+### Dependency updates
+
+- `@babel/preset-env` from `7.9.0` to `7.9.5`
+- `prettier` from `2.0.2` to `2.0.4`
+
 ## [0.2.27] 2020-04-15
 
 ### Added
 
 - 24x24_calendar_edit_outline.svg
 - 24x24_building_edit_outline.svg
-
 
 ## [0.2.26] 2020-03-25
 
