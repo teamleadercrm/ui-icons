@@ -2,6 +2,9 @@
 
 ### Added
 
+- 14x14_external_link_outline.svg
+- 24x24_external_link_outline.svg
+
 ### Changed
 
 ### Deprecated
