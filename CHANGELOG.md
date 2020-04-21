@@ -2,9 +2,6 @@
 
 ### Added
 
-- 14x14_external_link_outline.svg
-- 24x24_external_link_outline.svg
-
 ### Changed
 
 ### Deprecated
@@ -14,6 +11,13 @@
 ### Fixed
 
 ### Dependency updates
+
+## [0.2.29] 2020-04-21
+
+### Added
+
+- 14x14_external_link_outline.svg
+- 24x24_external_link_outline.svg
 
 ## [0.2.28] 2020-04-16
 
