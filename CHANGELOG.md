@@ -2,9 +2,6 @@
 
 ### Added
 
-- 14x14_invisible_outline.svg
-- 14x14_visible_outline.svg
-
 ### Changed
 
 ### Deprecated
@@ -14,6 +11,19 @@
 ### Fixed
 
 ### Dependency updates
+
+## [0.2.30] 2020-11-18
+
+### Added
+
+- 24x24_hourglass_outline.svg
+- 24x24_overview_outline.svg
+- 24x24_heart_outline.svg
+- 24x24_warning_outline.svg
+- 24x24_happy_outline.svg
+- 24x24_sad_outline.svg
+- 14x14_invisible_outline.svg
+- 14x14_visible_outline.svg
 
 ## [0.2.29] 2020-04-21
 
