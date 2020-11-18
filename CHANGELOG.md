@@ -22,6 +22,8 @@
 - 24x24_warning_outline.svg
 - 24x24_happy_outline.svg
 - 24x24_sad_outline.svg
+- 14x14_invisible_outline.svg
+- 14x14_visible_outline.svg
 
 ## [0.2.29] 2020-04-21
 
@@ -52,7 +54,7 @@
 
 ### Changed
 
-- 14x14_team-outline.svg ([@driesd](https://github.com/driesd) in [#140](https://github.com/teamleadercrm/ui-icons/pull/140)) 
+- 14x14_team-outline.svg ([@driesd](https://github.com/driesd) in [#140](https://github.com/teamleadercrm/ui-icons/pull/140))
 - `Build process & dependency resolution`: changed from npm to yarn, added yarn.lock ([@driesd](https://github.com/driesd) in [#143](https://github.com/teamleadercrm/ui-icons/pull/143))
 
 ### Dependency updates
