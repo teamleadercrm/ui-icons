@@ -25,6 +25,19 @@
 - 14x14_invisible_outline.svg
 - 14x14_visible_outline.svg
 
+### Dependency updates
+
+- `fs-extra` from `8.1.0` to `9.0.1`
+- `@babel/cli` from `7.8.4` to `7.12.1`
+- `@babel/register` from `7.9.0` to `7.12.1`
+- `@babel/preset-env` from `7.9.5` to `7.12.1`
+- `@babel/preset-react` from `7.9.4` to `7.12.5`
+- `@babel/core` from `7.9.0` to `7.12.3`
+- `@babel/plugin-transform-runtime` from `7.9.0` to `7.12.1`
+- `@babel/plugin-proposal-export-default-from` from `7.8.3` to `7.12.1`
+- `prettier` from `2.0.4` to `2.1.2`
+- `lodash` from `4.17.15` to `4.17.19`
+
 ## [0.2.29] 2020-04-21
 
 ### Added
