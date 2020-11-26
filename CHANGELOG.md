@@ -12,6 +12,13 @@
 
 ### Dependency updates
 
+## [0.2.31] 2020-11-25
+
+### Changed
+
+- 24x24_pauze_filled.svg
+- 24x24_play_filled.svg
+
 ## [0.2.30] 2020-11-18
 
 ### Added
