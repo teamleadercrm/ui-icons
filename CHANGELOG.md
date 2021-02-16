@@ -2,8 +2,6 @@
 
 ### Added
 
-- 14x14_lock_filled.svg
-
 ### Changed
 
 ### Deprecated
@@ -13,6 +11,12 @@
 ### Fixed
 
 ### Dependency updates
+
+## [0.2.32] 2021-02-16
+
+### Added
+
+- 14x14_lock_filled.svg
 
 ## [0.2.31] 2020-11-25
 
