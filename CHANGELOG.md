@@ -2,6 +2,8 @@
 
 ### Added
 
+- 14x14_lock_filled.svg
+
 ### Changed
 
 ### Deprecated
