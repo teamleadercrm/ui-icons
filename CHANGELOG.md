@@ -12,6 +12,16 @@
 
 ### Dependency updates
 
+## [1.0.0] 2021-03-04
+
+### Added
+
+- 14x14_lock_outline.svg
+
+### Changed
+
+- 14x14_lock_filled.svg
+
 ## [0.2.32] 2021-02-16
 
 ### Added
