@@ -10,6 +10,8 @@
 
 ### Fixed
 
+- Add missing viewBox property ([@ArnaudWeyts](https://github.com/ArnaudWeyts) in [#269](https://github.com/teamleadercrm/ui-icons/pull/269)) 
+
 ### Dependency updates
 
 ## [1.0.0] 2021-03-04
