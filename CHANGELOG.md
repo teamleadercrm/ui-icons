@@ -10,6 +10,8 @@
 
 ### Fixed
 
+- Wrong casing of lodash imports
+
 ### Dependency updates
 
 - Add React 17 as a valid peer dependency version
