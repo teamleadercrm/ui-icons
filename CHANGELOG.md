@@ -12,6 +12,8 @@
 
 ### Dependency updates
 
+- Add React 17 as a valid peer dependency version
+
 ## [1.0.1] 2021-03-15
 
 ### Fixed
