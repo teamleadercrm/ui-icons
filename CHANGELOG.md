@@ -12,6 +12,16 @@
 
 ### Dependency updates
 
+## [1.1.0] 2021-03-16
+
+### Fixed
+
+- Wrong casing of lodash imports
+
+### Dependency updates
+
+- Add React 17 as a valid peer dependency version
+
 ## [1.0.1] 2021-03-15
 
 ### Fixed
