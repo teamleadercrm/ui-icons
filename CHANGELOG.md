@@ -12,6 +12,13 @@
 
 ### Dependency updates
 
+## [1.1.1] 2021-03-29
+
+### Added
+
+- 14x14_grab_outline.svg
+- 14x14_title_outline.svg
+
 ## [1.1.0] 2021-03-16
 
 ### Fixed
