@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [1.1.2] 2021-04-16
+
+### Added
+
+- 14x14_play_filled.svg
+
 ## [1.1.1] 2021-03-29
 
 ### Added
