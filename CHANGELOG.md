@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [1.1.3] 2021-04-27
+
+### Added
+
+- 14x14_money_outline.svg
+
 ## [1.1.2] 2021-04-19
 
 ### Added
