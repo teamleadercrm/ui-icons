@@ -2,9 +2,6 @@
 
 ### Added
 
-- 14x14_work_type_filled.svg
-- 14x14_work_type_outline.svg 
-
 ### Changed
 
 ### Deprecated
@@ -14,6 +11,13 @@
 ### Fixed
 
 ### Dependency updates
+
+## [1.3.0] 2021-06-07
+
+### Added
+
+- 14x14_work_type_filled.svg
+- 14x14_work_type_outline.svg 
 
 ## [1.2.0] 2021-04-27
 
