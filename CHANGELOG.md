@@ -2,6 +2,9 @@
 
 ### Added
 
+- 14x14_work_type_filled.svg
+- 14x14_work_type_outline.svg 
+
 ### Changed
 
 ### Deprecated
