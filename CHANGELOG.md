@@ -2,6 +2,8 @@
 
 ### Added
 
+- 14x14_cursor_filled.svg
+
 ### Changed
 
 ### Deprecated
