@@ -2,8 +2,6 @@
 
 ### Added
 
-- 14x14_cursor_filled.svg
-
 ### Changed
 
 ### Deprecated
@@ -13,6 +11,25 @@
 ### Fixed
 
 ### Dependency updates
+
+## [1.4.0] 2021-07-26
+
+### Added
+
+- 14x14_cursor_filled.svg
+
+### Dependency updates
+
+- `@babel/cli` from `7.13.16` to `7.14.8`
+- `@babel/core` from `7.14.0` to `7.14.8`
+- `@babel/plugin-proposal-export-default-from` from `7.12.13` to `7.14.5`
+- `@babel/plugin-transform-runtime` from `7.14.3` to `7.14.5`
+- `@babel/preset-env` from `7.14.1` to `7.14.8`
+- `@babel/preset-react` from `7.13.13` to `7.14.5`
+- `@babel/register` from `7.13.16`to `7.14.5`
+- `cheerio `from `1.0.0-rc.6` to `1.0.0-rc.10` 
+- `glob-parent` from `5.1.1` to `5.1.2`
+- `prettier` from `2.3.0` to `2.3.2`
 
 ## [1.3.0] 2021-06-07
 
