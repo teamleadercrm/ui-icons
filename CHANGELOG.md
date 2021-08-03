@@ -2,6 +2,8 @@
 
 ### Added
 
+- 14x14_timer_add_outline.svg
+
 ### Changed
 
 ### Deprecated
@@ -11,12 +13,6 @@
 ### Fixed
 
 ### Dependency updates
-
-## [1.5.0] 2021-08-03
-
-### Added
-
-- 14x14_timer_add_outline.svg
 
 ## [1.4.0] 2021-07-26
 
