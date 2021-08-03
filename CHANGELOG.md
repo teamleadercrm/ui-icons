@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [1.5.0] 2021-08-03
+
+### Added
+
+- 14x14_timer_add_outline.svg
+
 ## [1.4.0] 2021-07-26
 
 ### Added
@@ -27,7 +33,7 @@
 - `@babel/preset-env` from `7.14.1` to `7.14.8`
 - `@babel/preset-react` from `7.13.13` to `7.14.5`
 - `@babel/register` from `7.13.16`to `7.14.5`
-- `cheerio `from `1.0.0-rc.6` to `1.0.0-rc.10` 
+- `cheerio `from `1.0.0-rc.6` to `1.0.0-rc.10`
 - `glob-parent` from `5.1.1` to `5.1.2`
 - `prettier` from `2.3.0` to `2.3.2`
 
@@ -36,7 +42,7 @@
 ### Added
 
 - 14x14_work_type_filled.svg
-- 14x14_work_type_outline.svg 
+- 14x14_work_type_outline.svg
 
 ## [1.2.0] 2021-04-27
 
