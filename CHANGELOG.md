@@ -10,6 +10,8 @@
 
 ### Fixed
 
+- `14x14_title_outline`: fix `viewBox` console error
+
 ### Dependency updates
 
 ## [1.5.0] 2021-08-03
