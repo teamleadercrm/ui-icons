@@ -2,8 +2,6 @@
 
 ### Added
 
-- 14x14_text_outline.svg
-
 ### Changed
 
 ### Deprecated
@@ -11,8 +9,6 @@
 ### Removed
 
 ### Fixed
-
-- `14x14_title_outline`: fix `viewBox` console error
 
 ### Dependency updates
 
