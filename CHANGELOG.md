@@ -2,6 +2,8 @@
 
 ### Added
 
+- 14x14_text_outline.svg
+
 ### Changed
 
 ### Deprecated
