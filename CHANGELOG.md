@@ -16,6 +16,16 @@
 
 ### Dependency updates
 
+## [1.6.0] 2021-09-02
+
+### Added
+
+- 14x14_text_outline.svg
+
+### Fixed
+
+- `14x14_title_outline`: fix `viewBox` console error
+
 ## [1.5.0] 2021-08-03
 
 ### Added
