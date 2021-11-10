@@ -2,6 +2,9 @@
 
 ### Added
 
+- 24x24_rocket_filled.svg
+- 24x24_rocket_outline.svg
+
 ### Changed
 
 ### Deprecated
