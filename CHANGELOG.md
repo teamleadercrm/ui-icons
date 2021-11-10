@@ -2,9 +2,6 @@
 
 ### Added
 
-- 24x24_rocket_filled.svg
-- 24x24_rocket_outline.svg
-
 ### Changed
 
 ### Deprecated
@@ -14,6 +11,21 @@
 ### Fixed
 
 ### Dependency updates
+
+## [1.7.0] 2021-11-10
+
+### Added
+
+- 24x24_rocket_filled.svg
+- 24x24_rocket_outline.svg
+
+### Dependency updates
+
+- `glob` from `7.1.7` to `7.2.0`
+- `@babel/cli ` from `7.14.8` to `7.15.7`
+- `prettier` from `2.3.2` to `2.4.1`
+- `@babel/preset-env` from `7.15.0` to `7.15.6`
+- `@babel/core` from `7.15.0` to `7.15.5`
 
 ## [1.6.0] 2021-09-02
 
