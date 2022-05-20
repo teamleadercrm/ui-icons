@@ -1,6 +1,7 @@
 ## [unreleased]
 
 ### Added
+- 24x24_unlink_outline.svg
 
 ### Changed
 
