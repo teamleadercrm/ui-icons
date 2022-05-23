@@ -1,10 +1,6 @@
 ## [unreleased]
 
 ### Added
-- 24x24_unlink_outline.svg
-
-- 24x24_schedule_filled.svg
-- 24x24_schedule_outline.svg
 
 ### Changed
 
@@ -15,6 +11,14 @@
 ### Fixed
 
 ### Dependency updates
+
+## [1.8.0] 2022-05-23
+
+### Added
+- 24x24_unlink_outline.svg
+
+- 24x24_schedule_filled.svg
+- 24x24_schedule_outline.svg
 
 ## [1.7.0] 2021-11-10
 
