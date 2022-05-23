@@ -3,6 +3,9 @@
 ### Added
 - 24x24_unlink_outline.svg
 
+- 24x24_schedule_filled.svg
+- 24x24_schedule_outline.svg
+
 ### Changed
 
 ### Deprecated
