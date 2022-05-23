@@ -12,7 +12,7 @@
 
 ### Dependency updates
 
-## [1.7.0] 2022-05-23
+## [1.8.0] 2022-05-23
 
 ### Added
 - 24x24_unlink_outline.svg
