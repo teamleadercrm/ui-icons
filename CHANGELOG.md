@@ -2,6 +2,8 @@
 
 ### Added
 
+- Also expose icon svgs directly for use in non-react packages
+
 ### Changed
 
 ### Deprecated
@@ -15,6 +17,7 @@
 ## [1.8.0] 2022-05-23
 
 ### Added
+
 - 24x24_unlink_outline.svg
 
 - 24x24_schedule_filled.svg
