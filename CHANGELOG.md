@@ -2,8 +2,6 @@
 
 ### Added
 
-- Also expose icon svgs directly for use in non-react packages
-
 ### Changed
 
 ### Deprecated
@@ -13,6 +11,12 @@
 ### Fixed
 
 ### Dependency updates
+
+## [1.9.0] 2022-07-19
+
+### Added
+
+- Also expose icon svgs directly for use in non-react packages
 
 ## [1.8.0] 2022-05-23
 
