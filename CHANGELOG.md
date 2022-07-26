@@ -105,7 +105,7 @@
 
 ### Changed
 
-- Cleanded up exsisting ones
+- Cleaned up existing ones
 - [BREAKING] renamed 24x24_unlink_outline to 24x24_link_unlink_outline
 - [BREAKING] renamed 24x24_invisible_outline to 24x24_visible_off_outline
 - [BREAKING] renamed 24x24_pauze_filled to 24x24_pause_filled
