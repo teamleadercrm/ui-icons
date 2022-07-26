@@ -106,13 +106,13 @@
 ### Changed
 
 - Cleanded up exsisting ones
-- renamed 24x24_unlink_outline to 24x24_link_unlink_outline
-- renamed 24x24_invisible_outline to 24x24_visible_off_outline
-- renamed 24x24_pauze_filled to 24x24_pause_filled
-- renamed 24x24_pauze_badged_outline to 24x24_pause_badged_outline
-- renamed 24x24_pauze_badged_filled to 24x24_pause_badged_filled
-- renamed 14x14_dollar_filled to 14x14_money_outline
-- renamed 14x14_invisible_outline to 14x14_visible_off_outline
+- [BREAKING] renamed 24x24_unlink_outline to 24x24_link_unlink_outline
+- [BREAKING] renamed 24x24_invisible_outline to 24x24_visible_off_outline
+- [BREAKING] renamed 24x24_pauze_filled to 24x24_pause_filled
+- [BREAKING] renamed 24x24_pauze_badged_outline to 24x24_pause_badged_outline
+- [BREAKING] renamed 24x24_pauze_badged_filled to 24x24_pause_badged_filled
+- [BREAKING] renamed 14x14_dollar_filled to 14x14_money_outline
+- [BREAKING] renamed 14x14_invisible_outline to 14x14_visible_off_outline
 
 ### Deprecated
 
