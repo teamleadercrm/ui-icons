@@ -2,7 +2,117 @@
 
 ### Added
 
+- 14x14_attach_file_outline.svg
+- 14x14_code_outline.svg
+- 14x14_filter_outline.svg
+- 14x14_gift_outline.svg
+- 14x14_graph_trending_up_outline.svg
+- 14x14_link_ouline.svg
+- 14x14_pin_filled.svg
+- 14x14_pin_outline.svg
+- 14x14_trendstop_outline.svg
+- 24x24_arrow_all_outline.svg
+- 24x24_arrow_big_up_filled.svg
+- 24x24_arrow_big_up_outline.svg
+- 24x24_arrow_long_right_outline.svg
+- 24x24_bell_off_outline.svg
+- 24x24_block_outline.svg
+- 24x24_branding_outline.svg
+- 24x24_camera_outline.svg
+- 24x24_camera_switch_outline.svg
+- 24x24_circle_outline.svg
+- 24x24_clock_rewind_outline.svg
+- 24x24_cloud_queue_outline.svg
+- 24x24_cloud_upload_outline.svg
+- 24x24_cobrowse_outline.svg
+- 24x24_computer_outline.svg
+- 24x24_cursor_outline.svg
+- 24x24_desktop_outline.svg
+- 24x24_elipse_outline.svg
+- 24x24_eraser_outline.svg
+- 24x24_exit_to_app_outline.svg
+- 24x24_extension_filled.svg
+- 24x24_extension_outline.svg
+- 24x24_facebook_filled.svg
+- 24x24_fast_forward_outline.svg
+- 24x24_fast_rewind_outline.svg
+- 24x24_front_hand_outline.svg
+- 24x24_fullscreen_exit_outline.svg
+- 24x24_fullscreen_outline.svg
+- 24x24_geometric_outline.svg
+- 24x24_globe_outline.svg
+- 24x24_greek_lowercase_outline.svg
+- 24x24_greek_uppercase_outline.svg
+- 24x24_grid_filled.svg
+- 24x24_handshake_filled.svg
+- 24x24_handshake_outline.svg
+- 24x24_image_add_outline.svg
+- 24x24_infinity_outline.svg
+- 24x24_instagram_outline.svg
+- 24x24_invoice_add_outline.svg
+- 24x24_keyboard_outline.svg
+- 24x24_line_outline.svg
+- 24x24_line_weight_outline.svg
+- 24x24_lock_open_outline.svg
+- 24x24_lock_outline.svg
+- 24x24_marker_outline 1.svg
+- 24x24_meeting_room_filled.svg
+- 24x24_meeting_room_outline.svg
+- 24x24_message_feedback_outline.svg
+- 24x24_message_text_outline.svg
+- 24x24_mic_filled.svg
+- 24x24_mic_off_outline.svg
+- 24x24_mic_outline.svg
+- 24x24_minimize_outline.svg
+- 24x24_mobile_phone_outline.svg
+- 24x24_one_drive_filled.svg
+- 24x24_phone_end_outline.svg
+- 24x24_picture_in_picture_alt_outline 1.svg
+- 24x24_picture_in_picture_alt_outline.svg
+- 24x24_picture_in_picture_outline.svg
+- 24x24_play_outline.svg
+- 24x24_present_outline.svg
+- 24x24_push_pin_off_outline.svg
+- 24x24_record_outline.svg
+- 24x24_rectangle_outline.svg
+- 24x24_redo_outline.svg
+- 24x24_refresh_outline 1.svg
+- 24x24_resend_outline.svg
+- 24x24_save_outline.svg
+- 24x24_screen_share_outline.svg
+- 24x24_send_outline.svg
+- 24x24_shared_mouse_pointer_filled.svg
+- 24x24_signal_cellular_filled.svg
+- 24x24_stop_outline.svg
+- 24x24_sync_outline.svg
+- 24x24_tab_outline.svg
+- 24x24_text_functions.svg
+- 24x24_text_size_outline.svg
+- 24x24_text_title_outline.svg
+- 24x24_text_underlined_outline.svg
+- 24x24_triangle_outline.svg
+- 24x24_twitter_filled.svg
+- 24x24_undo_outline.svg
+- 24x24_verified_filled.svg
+- 24x24_verified_outline.svg
+- 24x24_videocam_filled.svg
+- 24x24_videocam_off_outline.svg
+- 24x24_videocam_outline.svg
+- 24x24_volume_up.svg
+- 24x24_youtube.svg
+- 24x24_zoom_in_outline.svg
+- 24x24_zoom_out_outline.svg
+
 ### Changed
+
+- Cleaned up existing ones
+- [BREAKING] renamed 24x24_unlink_outline to 24x24_link_unlink_outline
+- [BREAKING] renamed 24x24_invisible_outline to 24x24_visible_off_outline
+- [BREAKING] renamed 24x24_pauze_filled to 24x24_pause_filled
+- [BREAKING] renamed 24x24_pauze_badged_outline to 24x24_pause_badged_outline
+- [BREAKING] renamed 24x24_pauze_badged_filled to 24x24_pause_badged_filled
+- [BREAKING] renamed 14x14_dollar_filled to 14x14_money_outline
+- [BREAKING] renamed 14x14_invisible_outline to 14x14_visible_off_outline
 
 ### Deprecated
 
