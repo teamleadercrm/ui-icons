@@ -2,6 +2,20 @@
 
 ### Added
 
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Dependency updates
+
+## [2.0.0] 2022-07-27
+
+### Added
+
 - 14x14_attach_file_outline.svg
 - 14x14_code_outline.svg
 - 14x14_filter_outline.svg
@@ -113,14 +127,6 @@
 - [BREAKING] renamed 24x24_pauze_badged_filled to 24x24_pause_badged_filled
 - [BREAKING] renamed 14x14_dollar_filled to 14x14_money_outline
 - [BREAKING] renamed 14x14_invisible_outline to 14x14_visible_off_outline
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Dependency updates
 
 ## [1.9.0] 2022-07-19
 
