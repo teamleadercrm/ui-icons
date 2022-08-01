@@ -8,7 +8,14 @@
 
 ### Removed
 
+- 24x24_picture_in_picture_alt_outline 1.svg
+
 ### Fixed
+
+- renamed 24x24_marker_outline.svg to 24x24_highlighter_outline.svg
+- renamed 24x24_marker_outline 1.svg to 24x24_marker_outline.svg
+- renamed 24x24_refresh_outline.svg to 24x24_refresh_alt_outline.svg
+- renamed 24x24_refresh_outline 1.svg to 24x24_refresh_outline.svg
 
 ### Dependency updates
 
