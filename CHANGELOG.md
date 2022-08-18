@@ -4,8 +4,6 @@
 
 ### Changed
 
-- support React 18 as a peer dependency 
-
 ### Deprecated
 
 ### Removed
@@ -13,6 +11,12 @@
 ### Fixed
 
 ### Dependency updates
+
+## [2.0.2] 2022-08-18
+
+### Changed
+
+- support React 18 as a peer dependency 
 
 ## [2.0.1] 2022-08-01
 
