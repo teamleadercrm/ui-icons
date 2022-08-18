@@ -1,7 +1,7 @@
 {
   "name": "@teamleader/ui-icons",
   "description": "Teamleader UI icons",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Teamleader <development@teamleader.eu> (https://www.teamleader.eu)",
   "bugs": {
     "url": "https://github.com/teamleadercrm/ui-icons/issues"
@@ -43,7 +43,7 @@
     "icons"
   ],
   "peerDependencies": {
-    "react": "^15.0.0 || ^16.0.0 || ^17.0.0"
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "private": false,
   "repository": {
