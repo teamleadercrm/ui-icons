@@ -35,15 +35,13 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, compone
     }
   });
 
-  const viewBox = $svg.attr('viewBox');
-
   // Actual output of the React component
   return `
             import React from 'react';
             import Icon from './IconBase';
             
             const ${componentName} = props => (
-              <Icon viewBox="${viewBox}" {...props} width="${width}" height="${height}">
+              <Icon {...props} width="${width}" height="${height}">
                 ${$svg.html()}
               </Icon>
             );
