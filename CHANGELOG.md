@@ -10,6 +10,8 @@
 
 ### Fixed
 
+- Remove `viewBox` attribute since it's always undefined.
+
 ### Dependency updates
 
 ## [2.1.0] 2022-08-18
