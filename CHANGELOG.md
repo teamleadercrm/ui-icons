@@ -2,8 +2,6 @@
 
 ### Added
 
-- 24x24_online_meeting.svg
-
 ### Changed
 
 ### Deprecated
@@ -12,9 +10,17 @@
 
 ### Fixed
 
-- Remove `viewBox` attribute since it's always undefined.
-
 ### Dependency updates
+
+## [2.2.0] 2022-08-23
+
+### Added
+
+- 24x24_online_meeting.svg
+
+### Fixed
+
+- Remove `viewBox` attribute since it's always undefined.
 
 ## [2.1.0] 2022-08-18
 
