@@ -2,6 +2,8 @@
 
 ### Added
 
+- 24x24_online_meeting.svg
+
 ### Changed
 
 ### Deprecated
