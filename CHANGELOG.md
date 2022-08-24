@@ -10,6 +10,8 @@
 
 ### Fixed
 
+- Reintroduce viewBox and add log an error if it's not defined correctly.
+
 ### Dependency updates
 
 ## [2.2.0] 2022-08-23
