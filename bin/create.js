@@ -35,13 +35,19 @@ const transformSVGToReactComponent = Promise.coroutine(function*(rawSVG, compone
     }
   });
 
+  const viewBox = $svg.attr('viewBox');
+
+  if (viewBox !== `0 0 ${width} ${height}`) {
+    throw new Error('Invalid or missing viewBox attribute');
+  }
+
   // Actual output of the React component
   return `
             import React from 'react';
             import Icon from './IconBase';
             
             const ${componentName} = props => (
-              <Icon {...props} width="${width}" height="${height}">
+              <Icon viewBox="${viewBox}" {...props} width="${width}" height="${height}">
                 ${$svg.html()}
               </Icon>
             );
@@ -80,7 +86,13 @@ const generateSVGs = Promise.coroutine(function*() {
         const componentName = upperFirst(camelCase(`${iconNameWithSize}`));
 
         const rawSVG = readFile(`${ICONS_DIR}/${fileName}`);
-        const stringifiedSVGComponent = yield transformSVGToReactComponent(rawSVG, componentName, width, height);
+        let stringifiedSVGComponent;
+        try {
+          stringifiedSVGComponent = yield transformSVGToReactComponent(rawSVG, componentName, width, height);
+        } catch (e) {
+          logs += `⚠️  ${e.message || 'Error'} for icon: ${fileName}\n`;
+          return;
+        }
 
         // Write the newly created Component strings to file
         const filename = path.join(LIB_DIR, `${componentName}.js`);
