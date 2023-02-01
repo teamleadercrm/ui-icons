@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [2.3.1] - 2023-02-01
+
+### Fixed
+
+- Renamed 24x24_customers.svg to 24x24_customers_filled.svg
+
 ## [2.3.0] 2023-02-01
 
 ### Added
@@ -38,7 +44,7 @@
 
 ### Changed
 
-- support React 18 as a peer dependency 
+- support React 18 as a peer dependency
 
 ## [2.0.1] 2022-08-01
 
