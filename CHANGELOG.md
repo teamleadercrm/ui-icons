@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [2.3.0] 2023-02-01
+
+### Added
+
+- 24x24_customers.svg
+
 ## [2.2.1] 2022-08-25
 
 ### Fixed
