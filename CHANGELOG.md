@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [2.4.0] 2023-03-13
+
+### Added
+
+- 14x14_euro_outline.svg
+
 ## [2.3.1] - 2023-02-01
 
 ### Fixed
