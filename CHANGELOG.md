@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [2.4.2] 2023-08-10
+
+### Added
+ - 14x14_settings_filled.svg
+ - 14x14_settings_outline.svg
+
 ## [2.4.1] 2023-06-15
 
 ### Added
