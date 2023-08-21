@@ -12,18 +12,29 @@
 
 ### Dependency updates
 
+## [2.5.0] 2023-08-21
+
+### Added
+
+- 14x14_print_outline.svg
+- 14x14_print_filled.svg
+- 24x24_print_outline.svg
+- 24x24_print_filled.svg
+
 ## [2.4.2] 2023-08-10
 
 ### Added
- - 14x14_settings_filled.svg
- - 14x14_settings_outline.svg
+
+- 14x14_settings_filled.svg
+- 14x14_settings_outline.svg
 
 ## [2.4.1] 2023-06-15
 
 ### Added
- - 14x14_globe_outline.svg
- - 24x24_attach_file_outline.svg
- - 24x24_code_outline.svg
+
+- 14x14_globe_outline.svg
+- 24x24_attach_file_outline.svg
+- 24x24_code_outline.svg
 
 ## [2.4.0] 2023-03-13
 
