@@ -12,6 +12,13 @@
 
 ### Dependency updates
 
+## [2.6.0] 2023-08-31
+
+### Added
+
+- 24x24_verified_disabled_outline.svg
+- 24x24_reset_password_outline.svg
+
 ## [2.5.0] 2023-08-21
 
 ### Added
