@@ -12,6 +12,13 @@
 
 ### Dependency updates
 
+## [2.7.0] 2023-09-04
+
+### Added
+
+- 24x24_forms_outline.svg
+- 24x24_forms_filled.svg
+
 ## [2.6.0] 2023-08-31
 
 ### Added
