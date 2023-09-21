@@ -12,6 +12,13 @@
 
 ### Dependency updates
 
+## [2.8.0] 2023-09-21
+
+### Added
+
+- 14x14_percentage_up.svg
+- 14x14_percentage_down.svg
+
 ## [2.7.0] 2023-09-04
 
 ### Added
