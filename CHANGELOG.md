@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [2.8.2] 2023-09-21
+
+### Fixed
+
+- Ensure 14x14_percentage_up dimensions are equal for both width and height.
+
 ## [2.8.0] 2023-09-21
 
 ### Added
