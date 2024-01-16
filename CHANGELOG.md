@@ -12,6 +12,12 @@
 
 ### Dependency updates
 
+## [2.9.0] 2024-01-16
+
+### Added
+
+- 14x14_calendar_time_outline.svg
+
 ## [2.8.2] 2023-09-21
 
 ### Fixed
